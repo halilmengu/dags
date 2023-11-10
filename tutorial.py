@@ -77,7 +77,7 @@ with DAG(
     # [START basic_task]
     t1 = BashOperator(
         task_id="print_date",
-        bash_command="echo deneme >> /data/test.txt",
+        bash_command="echo deneme >> /data/test.txt ;",
     )
 
     t2 = BashOperator(
