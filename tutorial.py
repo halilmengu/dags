@@ -34,7 +34,7 @@ from airflow.models.dag import DAG
 from airflow.operators.bash import BashOperator
 import pandas 
 import openpyxl
-import oslo.reports
+import oslo_reports
 # [END import_module]
 
 
