@@ -32,7 +32,8 @@ from airflow.models.dag import DAG
 
 # Operators; we need this to operate!
 from airflow.operators.bash import BashOperator
-
+import pandas 
+import openpyxl
 # [END import_module]
 
 
